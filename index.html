@@ -1,13 +1,100 @@
 <!DOCTYPE html>
 <html lang="en">
+  
   <head>
     <meta charset="UTF-8">
     <link rel="icon" href="/favicon.ico">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dan Rules the Skys</title>
+    <title>Dan Rules the Sky</title>
+    <style>
+      body {background-color:powderblue;}
+      h2   {
+            color: rgb(0, 0, 9);
+            font-family: Arial, Helvetica, sans-serif;
+            }
+      p    {color: red;}
+      table {
+            width: 75%;
+            table-layout: fixed;
+        }
+
+        td {
+            width: 25%;
+            text-align: center; 
+            vertical-align: middle; 
+        }
+      </style>
+      <link rel="stylesheet" type="text/css" href="danstyle.css">
   </head>
+ 
   <body>
-    <div id="app"></div>
-    <script type="module" src="/src/main.js"></script>
+
+    <h1 style="color:blue;">A QUICK TASK USING CSS AND HTML (HEADING)</h1>
+    <br>
+    <h1 style="color:rgb(255, 0, 174);">A QUICK TASK USING IMAGES (IMAGE)</h1>
+    
+    <h2>This is the image!</h2>
+    <img src="https://a-z-animals.com/media/shark-1.jpg" width="50%" height="50%" alt="Credit to a-z-animals.com">
+    <p>Example of paragraph text</p>
+
+    <table>
+      <tr>
+          <th>Column 1</th>
+          <th>Column 2</th>
+          <th>Column 3</th>
+      </tr>
+      <tr>
+          <td>Row 1, Cell 1</td>
+          <td>Row 1, Cell 2</td>
+          <td>Row 1, Cell 3</td>
+      </tr>
+      <tr>
+          <td>Row 2, Cell 1</td>
+          <td>Row 2, Cell 2</td>
+          <td>Row 2, Cell 3</td>
+      </tr>
+    </table>
+    <br>
+    <hr>
+    <br>
+    <table>
+      <tr>
+          <th>Column 1</th>
+          <th>Column 2</th>
+          <th>Column 3</th>
+      </tr>
+      <tr>
+          <td>Row 1, Cell 1</td>
+          <td>
+            <form action="#">
+              <label for="name">Name:</label><br>
+              <input type="text" id="name" name="name"><br>
+              <label for="age">Age:</label><br>
+              <input type="number" id="age" name="age"><br>
+              <label for="eyes">Eye colour:</label><br>
+              <select id="eyes" name="eyes">
+                  <option value="blue">Blue</option>
+                  <option value="green">Green</option>
+                  <option value="red">Red</option>
+              </select><br>
+              <label for="hair">Hair colour:</label><br>
+              <input type="checkbox" id="red" name="hair" value="red">
+              <label for="red">Red</label><br>
+              <input type="checkbox" id="pink" name="hair" value="pink">
+              <label for="pink">Pink</label><br>
+              <label for="height">Height:</label><br>
+              <input type="text" id="height" name="height"><br>
+              <input type="submit" value="Submit">
+          </form>
+          </td>
+          <td>Row 1, Cell 3</td>
+      </tr>
+    
+    </table>
+    
+    <h3>This is testing the STYLE SHEET LINK</h3>
+   
+
   </body>
+
 </html>
